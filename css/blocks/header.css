@@ -1,0 +1,50 @@
+.header{
+    padding: 30px 15px 30px 22px;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+.header_menu a{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+
+/* Text/Primary */
+
+color: #111238;
+transition-duration: 1s;
+}
+
+.header_menu a:hover{
+    color: #1A75E8;
+}
+
+.header_box{
+    display: none;
+}
+.hamburger{
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 16px;
+    right: 10px;
+
+}
+.hamburger span{
+    display: block;
+    width: 24px;
+    border: 2px solid #111238;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.section_categories{
+    width: 320px;
+    height: 1080px;
+    left: 0px;
+    top: 783px;
+
+    background: #FFFFFF;
+}
